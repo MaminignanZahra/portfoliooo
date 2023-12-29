@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famms</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/png">
+    <style>
+        .carousel-caption {
+            text-align: left;
+            top: 10%;
+            left: 10%;
+            right: auto;
+            bottom: auto;
+            transform: translate(0, 0);
+        }
+    
+        .carousel-caption h5 {
+            font-size: 25px; 
+        }
+    
+        .carousel-caption p {
+            font-size: 18px;
+        }
+        .hey{
+          text-align: right;
+            top: 25%;
+            left: auto;
+            right: 15%;
+            bottom: auto;
+            transform: translate(0, 0);
+        }
+        .containerShop{
+         
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         
+       }
+       
+       .barre{
+         border: 3px solid;
+         width: 5%;
+         border-color: #f7444e;
+       }
+       *{
+        font-family: Montserrat, sans-serif;
+       }
+       .card-img-top{
+        height: 150px;
+        width: 100px;
+       
+      
+       }
+       .card-img-top:hover{
+        transform: scale(1.2);
+        
+       }
+       .card-title{
+        text-align: center;
+        font-weight: bolder;
+        margin: 50px;
+        
+             }
+      .card{
+        margin: 20px;
+        height: 300px;
+        width: 40px;  
+      }
+      .btn-pers:hover{
+        background-color: white !important;
+        color: #d5cccd !important;
+        border: solid;
+      }
+      .hum{
+       display: inline-flex;
+       flex-direction: column;
+       padding: 0 50%;
+       
+
+     
+      }
+    
+    </style>
+    
+     
+</head>
+<body>
+  <nav class="navbar-toggler"  data-toggle="collapse" data-target="#thetarget">
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#thetarget">
+      <span class="navbar-toggler-icon"></span>
+   </button>
+  </nav>
+     <ul class="nav nav-pills">
+      <li class="nav-item ">
+          <a class="nav-link text-dark font-weight-bold" href="#"><img src="Images/favicon.png" alt="mon logo" width="80PX" style="color: black;"><span style="font-weight: bold;font-size: 35px;">F<span style="color: #ff0036; font-weight: bold;">a</span>mms</span></i></a>
+          </li>
+      <li class="nav-item ml-auto">
+        <a class="nav-link" href="site.html" style="color: #ff0036; font-weight: bold; font-size: 25px;">HOME</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle  text-dark font-weight-bold" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 25px;">PAGES</a>
+        <div class="dropdown-menu shadow-lg">
+          <a class="dropdown-item" href="about.html">ABOUT</a>
+          <a class="dropdown-item" href="#">TEMOIGNAGE</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark font-weight-bold" href="#" style="font-size: 25px;">DES PRODUITS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark font-weight-bold" href="#" style="font-size: 25px;" >BLOG</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold" href="#" style="font-size: 25px;" >CONTACT</a>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold" href="#" style="font-size: 25px;"><i class="fas fa-search"></i></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold" href="#" style="font-size: 25px;"><i class="fas fa-shopping-cart"></i></a>
+      </li> 
+      </ul>
+   </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide mb-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/slider-bg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><span style="color: #ff0036; font-size: 60px;">Sale 20% Off</span><br>
+                   <span style="color: #160646;font-size: 60px">On Everything</span> </h5>
+                  <p style="color: black;">Explicabo esse amet tempora quibusdam laudantium, laborum <br> eaque magnam fugiat hic? <br> Esse dicta aliquid error repudiandae earum <br> suscipit fugiat molestias, veniam, vel architecto veritatis <br> delectus repellat modi impedit sequi.
+
+                  </p>
+                  <button type="button" class="btn btn-danger btn-lg" style="background-color: #ff0036;">Shop Now</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/slider-bg.jpg" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                  <h5><span style="color: #f7444e; font-size: 60px;">Sale 20% Off</span><br>
+                   <span style="color: #160646;font-size: 60px">On Everything</span> </h5>
+                  <p style="color: black;">Explicabo esse amet tempora quibusdam laudantium, laborum <br> eaque magnam fugiat hic? <br> Esse dicta aliquid error repudiandae earum <br> suscipit fugiat molestias, veniam, vel architecto veritatis <br> delectus repellat modi impedit sequi.
+
+                  </p>
+                  <button type="button" class="btn btn-danger btn-lg" style="background-color: #ff0036;">Shop Now</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/slider-bg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><span style="color: #ff0036; font-size: 60px;">Sale 20% Off</span><br>
+                     <span style="color: #160646;font-size: 60px">On Everything</span> </h5>
+                    <p style="color: black;">Explicabo esse amet tempora quibusdam laudantium, laborum <br> eaque magnam fugiat hic? <br> Esse dicta aliquid error repudiandae earum <br> suscipit fugiat molestias, veniam, vel architecto veritatis <br> delectus repellat modi impedit sequi.
+  
+                    </p>
+                    <button type="button" class="btn btn-danger btn-lg" style="background-color: #ff0036;">Shop Now</button>
+                  </div>
+           </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="containerShop">
+            <h1 class="shop" style="font-family: Georgia, 'Times New Roman', Times, serif;">Why Shop With Us</h1>
+            <div class="barre"></div>
+          </div>
+          <div style="justify-content: center; display: flex; flex-wrap: wrap;">
+            <div class="card-deck text-white mb-3" style="max-width: 20rem; height:300px; float: left; margin: 15px; justify-content: center; background-color: #002c3e; text-align: center;">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Fast Delivery</h5>
+                    <p class="card-text">variations de passages de Lorem Ipsum disponibles</p>
+                </div>
+            </div>
+          <div class="card-deck text-white mb-3" style="max-width: 20rem;height:300px;  float: left; margin: 15px; justify-content: center; background-color: #002c3e; text-align: center;">
+                <div class="card-header"> </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b>Free Shipping</b></h5>
+                    <p class="card-text">variations de passages de Lorem Ipsum disponibles</p>
+                </div>
+            </div>
+            <div class="card-deck text-white mb-3" style="max-width: 20rem; height:300px; margin: 15px; justify-content: center; background-color: #002c3e; text-align: center;">
+                <div class="card-header"></i></div>
+                <div class="card-body">
+                    <h5 class="card-title">Best Quality</h5>
+                    <p class="card-text">variations de passages de Lorem Ipsum disponibles.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/arrival-bg.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block hey">
+                <h5><span style="color: #160646; font-size: 60px;">#New Arrivals</span><br>
+                <p style="color: black;">Explicabo esse amet tempora quibusdam laudantium, laborum <br> eaque magnam fugiat hic? <br> Esse dicta aliquid error repudiandae earum <br> suscipit fugiat molestias, veniam, vel architecto veritatis <br> delectus repellat modi impedit sequi.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="background-color: #ff0036;">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="containerShop">
+         <h1 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;">Our <span style="color: #f7444e;">products</span></h1>
+         <div class="barre"></div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="Images/p1.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Shirt <span style="float: right ;">$75</span></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p2.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Shirt <span style="float: right ;">$80</span> </h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p3.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Dress <span style="float: right ;">$68</span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="Images/p4.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Dress <span style="float: right ;">$70</span></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p5.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Dress <span style="float: right ;">$75</span></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p6.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Dress <span style="float: right ;">$58</span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="Images/p7.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Dress <span style="float: right ;">$80</span></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p8.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Shirt <span style="float: right ;">$65</span> </h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p9.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Shirt <span style="float: right ;">$65</span> </h5>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="Images/p10.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Shirt <span style="float: right ;">$65</span> </h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p11.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Shirt <span style="float: right ;">$65</span> </h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/p12.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Dress <span style="float: right ;">$65</span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-pers btn-lg" style="background-color: #ff0036; margin: 20px; color: white;">View alls products</button>
+       </div>
+       <div>  
+       </div>
+       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="Images/arrival-bg.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+              </form>
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+           
+          </div>
+          <div class="hum">
+            <button type="button" class="btn btn-primary btn-sm" style="margin: 10px; width: 150px; padding: 10px; display: none;">Large button</button>
+            <button type="button" class="btn btn-secondary btn-sm" style=" margin: 10px;padding: 10px; display: none;">Large button</button>
+          </div>
+         <script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    // Sélectionnez les boutons
+    let buttons = document.querySelectorAll('.hum button');
+
+    // Ajoutez l'événement au survol de l'image
+    let carte = document.querySelector('.card-img-top');
+    carte.addEventListener('mouseover', () => {
+        // Affichez les boutons
+        buttons.forEach(button => {
+            button.style.display = 'block';
+        });
+
+    });
+});
+
+         </script>
+  
+
+         
+       
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

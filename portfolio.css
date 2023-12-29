@@ -1,0 +1,171 @@
+/* Styles de base */
+
+.nav-item {
+    display: flex;
+    margin: 0px 25px;
+    font-size: 15px;
+    margin-top: auto;
+}
+
+.nav-link:focus {
+    background-color: transparent !important;
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    background-color: #333333;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff0000; /* Couleur du texte pour les liens actifs */
+}
+
+a:visited {
+    color: #F5F5DC; /* Couleur du texte pour les liens visités */
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: underline #E67E22 !important;
+}
+
+.carousel-item {
+    margin: 10px;
+}
+
+.carousel-caption {
+    text-align: left;
+    top: 10%;
+    left: 5%;
+    right: auto;
+    bottom: auto;
+    transform: translate(0, 0);
+    font-size: 20px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #E67E22;
+}
+
+h3 {
+    text-align: center;
+    color: #F5F5DC;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    background-color: transparent !important;
+}
+
+a:active {
+    background-color: #E67E22 !important;
+}
+
+.progress {
+    margin: 25px;
+    width: 100%;
+}
+
+.progress-circle-container {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.progress-circle {
+    width: 120px;
+    height: 120px;
+    background-color: #060606;
+    border-radius: 50%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #E67E22;
+}
+
+.progress {
+    background-color: #5D6D7E;
+    height: 8px;
+}
+
+.hum {
+    margin: 15px;
+    background-color: #92817a;
+    color: white;
+    max-width: 40%;
+}
+
+.hum p {
+    justify-content: center;
+    background-color: #92817a;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Ajustements pour les petits écrans (max-width: 767px) */
+@media (max-width: 767px) {
+    .nav-item {
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .carousel-caption {
+        top: 5%;
+        left: 2%;
+        font-size: 16px;
+    }
+
+    .fas-solid {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* Ajustements pour les écrans de taille moyenne (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler {
+        margin-right: 5px;
+    }
+
+    .carousel-caption {
+        top: 7%;
+        left: 3%;
+        font-size: 18px;
+    }
+}
+
+/* Ajustements pour les grands écrans (min-width: 992px) */
+@media (min-width: 992px) {
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .carousel-caption {
+        top: 10%;
+        left: 5%;
+        font-size: 20px;
+    }
+}

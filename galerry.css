@@ -1,0 +1,29 @@
+.gall{
+    float: left;
+    margin: 20px;
+    border: 1px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width , transform 2s;
+    
+}
+.gall:hover{
+    border: black;
+    transform: scale(2,3);
+    width: 200px;
+    
+}
+.des{
+    text-align: center;
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FF5733;
+    
+    
+}
+body{
+    background-color: #E0D0E5;
+}

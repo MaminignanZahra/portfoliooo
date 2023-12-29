@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+        <div id="a-supprimer" class="alert alert-danger m-4">Ceci est un élément à supprimer grâce à JavaScript.</div>
+        <script>
+            let sup=document.querySelector('#a-supprimer');
+            sup.remove();
+            let header= document.createElement('header');
+            let sheader= document.createElement('header');
+            let para= document.createElement('p');
+            header.textContent='BIENVENUE';
+            sheader.textContent='Acceuil/une autre page';
+            para.textContent='ceci est un paragraphe crée avec java script!';
+            document.body.append(header , sheader ,para);
+            header.style.backgroundColor= '#e3b04b';
+            sheader.style.backgroundColor= '#f1d6ab';
+            header.style.height='80px';
+            sheader.style.height='50px';
+            sheader.style.color= 'blue';
+
+
+
+          </script>
+   
+    
+</body>
+</html>
